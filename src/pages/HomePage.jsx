@@ -1,19 +1,27 @@
-import "react-awesome-slider/dist/styles.css";
-
-import Navbar from "../components/general/Navbar";
-import HeroSection from "../components/homepage/HeroSection";
-import HeroWwoSection from "../components/homepage/HeroWwoSection";
-import { TractorIcon } from "lucide-react";
+import { Navbar } from "../components/general";
+import {
+  HeroSection,
+  HeroOurServicesSection,
+  HeroWhatWeSell,
+  HeroWwoSection,
+  WhoWeAreSection,
+} from "../components/homepage";
 
 const HomePage = () => {
   return (
     <main className="">
-      <section className="relative h-screen max-w-[100vw] overflow-hidden p-4">
+      <section className="relative h-screen min-h-[600px] max-w-[100vw] overflow-hidden p-4">
         <Navbar />
         <HeroSection />
       </section>
       {/* What we offer section */}
       <HeroWwoSection />
+      {/* Who We Are */}
+      <WhoWeAreSection />
+      {/* What we sell marque effect */}
+      <HeroWhatWeSell />
+      {/* OUR SERVICES */}
+      <HeroOurServicesSection />
     </main>
   );
 };
