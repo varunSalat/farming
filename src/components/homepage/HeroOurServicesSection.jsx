@@ -21,7 +21,7 @@ const HeroOurServicesSection = () => {
         <div className="mt-6">
           <div
             // key={i}
-            className="curv group relative w-[min(460px,100%)] cursor-pointer justify-between rounded-xl p-6 px-8 transition-three-all before:shadow-sm hover:-translate-y-3"
+            className="curv group relative z-10 w-[min(460px,100%)] cursor-pointer justify-between rounded-xl p-6 px-8 transition-three-all before:shadow-sm hover:-translate-y-3"
           >
             <div className="flex items-center gap-4 border-b border-black-5 pb-4">
               <div className="grid h-14 w-14 place-items-center rounded-full bg-primary text-black">
