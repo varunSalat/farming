@@ -5,6 +5,9 @@ import {
   HeroWhatWeSell,
   HeroWwoSection,
   WhoWeAreSection,
+  GrowNaturallySection,
+  TestimonialsSection,
+  HealthyLifeSection,
 } from "../components/homepage";
 
 const HomePage = () => {
@@ -22,6 +25,12 @@ const HomePage = () => {
       <HeroWhatWeSell />
       {/* OUR SERVICES */}
       <HeroOurServicesSection />
+      {/* Grow Naturally */}
+      <GrowNaturallySection />
+      {/* Testimonial Section */}
+      <TestimonialsSection />
+      {/* Healthy Life */}
+      <HealthyLifeSection />
     </main>
   );
 };

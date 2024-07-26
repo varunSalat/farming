@@ -1,4 +1,4 @@
-import { FenceIcon, LeafIcon, ShieldCheckIcon } from "lucide-react";
+import { FenceIcon, ShieldCheckIcon } from "lucide-react";
 import { SmallHeader } from "../general";
 const WhoWeAreSection = () => {
   return (
