@@ -26,9 +26,17 @@ const HealthyLifeSection = () => {
             humour, or randomised words which don&apos;t look even.
           </p>
         </div>
-        <div className="mt-6 flex">
+        <div className="mt-6 flex gap-16">
           <div className="flex items-center gap-4">
-            <div className="grid h-20 w-20 place-items-center rounded-full bg-white">
+            <div className="relative grid h-20 w-20 place-items-center rounded-full bg-white before:absolute before:h-[115%] before:w-[115%] before:rounded-full before:border before:border-white">
+              <p className="text-2xl">90%</p>
+            </div>
+            <h2 className="text-2xl text-black-3">
+              Eco Farms <br /> Worldwide
+            </h2>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="relative grid h-20 w-20 place-items-center rounded-full bg-white before:absolute before:h-[115%] before:w-[115%] before:rounded-full before:border before:border-white">
               <p className="text-2xl">90%</p>
             </div>
             <h2 className="text-2xl text-black-3">

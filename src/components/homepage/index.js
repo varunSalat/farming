@@ -6,6 +6,7 @@ import WhoWeAreSection from "./WhoWeAreSection";
 import GrowNaturallySection from "./GrowNaturallySection";
 import TestimonialsSection from "./TestimonialsSection";
 import HealthyLifeSection from "./HealthyLifeSection";
+import OurCertificatesSection from "./OurCertificatesSection";
 export {
   HeroSection,
   HeroOurServicesSection,
@@ -15,4 +16,5 @@ export {
   GrowNaturallySection,
   TestimonialsSection,
   HealthyLifeSection,
+  OurCertificatesSection,
 };

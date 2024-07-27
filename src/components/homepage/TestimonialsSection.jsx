@@ -49,7 +49,9 @@ const TestimonialsSection = () => {
     <section className="mx-auto my-16 max-w-[1400px] p-4">
       <div>
         <SmallHeader text="testimonial" />
-        <h1 className="mt-6 text-5xl font-medium">What our customers say</h1>
+        <h1 className="mt-6 text-5xl font-medium text-black-2">
+          What our customers say
+        </h1>
       </div>
       <div className="relative mx-auto mt-20">
         <Swiper

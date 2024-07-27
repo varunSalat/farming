@@ -37,7 +37,9 @@ const WhoWeAreSection = () => {
           <div className="mt-8 flex justify-between gap-6">
             <div className="w-1/2">
               <FenceIcon size={90} className="text-secondary" strokeWidth={1} />
-              <h3 className="my-2 text-2xl font-medium">Eco Farms Worldwide</h3>
+              <h3 className="my-2 text-2xl font-medium text-black-2">
+                Eco Farms Worldwide
+              </h3>
               <p className="text-sm text-black-3">
                 There are many variations of pass ages of lorem ipsum available
                 majority have suffered.
@@ -49,7 +51,9 @@ const WhoWeAreSection = () => {
                 className="text-secondary"
                 strokeWidth={1}
               />
-              <h3 className="my-2 text-2xl font-medium">Eco Farms Worldwide</h3>
+              <h3 className="my-2 text-2xl font-medium text-black-2">
+                Eco Farms Worldwide
+              </h3>
               <p className="text-sm text-black-3">
                 There are many variations of pass ages of lorem ipsum available
                 majority have suffered.

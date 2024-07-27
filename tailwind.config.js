@@ -7,7 +7,7 @@ export default {
       transparent: "transparent",
       white: "#FFFFFF",
       black: "#000",
-      "black-2": "#1C2434",
+      "black-2": "#404a3d",
       "black-3": "#6e6f70",
       "black-4": "#bbbdbf",
       "black-5": "#E2E8F0",

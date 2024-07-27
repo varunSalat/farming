@@ -8,6 +8,7 @@ import {
   GrowNaturallySection,
   TestimonialsSection,
   HealthyLifeSection,
+  OurCertificatesSection,
 } from "../components/homepage";
 
 const HomePage = () => {
@@ -31,6 +32,8 @@ const HomePage = () => {
       <TestimonialsSection />
       {/* Healthy Life */}
       <HealthyLifeSection />
+      {/* Our Certificates */}
+      <OurCertificatesSection />
     </main>
   );
 };

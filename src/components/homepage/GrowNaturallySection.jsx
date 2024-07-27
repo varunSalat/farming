@@ -7,7 +7,7 @@ const GrowNaturallySection = () => {
     <section className="mx-auto my-16 max-w-[1400px] p-4">
       <div className="flex w-full flex-col items-center justify-between gap-6">
         <SmallHeader text="Grow Naturally" />
-        <h1 className="text-center text-5xl font-medium">
+        <h1 className="text-center text-5xl font-medium text-black-2">
           Choose What&apos;s Perfect <br /> For Your Field
         </h1>
       </div>
